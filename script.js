@@ -20,13 +20,13 @@ const question1 = () => {
       // Close the sidebar
       /** YOUR CODE HERE */
       sidebar.classList.remove("opened");
-      sidebarButton.textContent = "\u203A";
+      sidebarButton.textContent = "›";
       
     } else {
       // Open the sidebar
       /** YOUR CODE HERE */
       sidebar.classList.add("opened");
-      sidebarButton.textContent = "\u2039";
+      sidebarButton.textContent = "‹";
     }
   });
 };
