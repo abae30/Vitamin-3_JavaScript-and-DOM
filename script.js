@@ -19,14 +19,14 @@ const question1 = () => {
     if (sidebarIsOpen) {
       // Close the sidebar
       /** YOUR CODE HERE */
-      sidebar.classList.remove("opened")
-      sidebarButton.textContent = ">"
+      sidebar.classList.remove("opened");
+      sidebarButton.textContent = "\u203A";
       
     } else {
       // Open the sidebar
       /** YOUR CODE HERE */
       sidebar.classList.add("opened");
-      sidebarButton.textContent = "<";
+      sidebarButton.textContent = "\u2039";
     }
   });
 };
